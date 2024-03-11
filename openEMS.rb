@@ -8,9 +8,7 @@ class Openems < Formula
   desc "Electromagnetic field solver using the FDTD method"
   homepage "https://www.openems.de"
 
-  head do
-    url "https://github.com/thliebig/openEMS-Project.git"
-  end
+  head "https://github.com/aWZHY0yQH81uOYvH/openEMS-Project.git", branch: "testing"
 
   depends_on "cmake" => :build
   depends_on "qt@6"
